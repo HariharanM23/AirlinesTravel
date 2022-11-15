@@ -1,0 +1,47 @@
+.lookupBtn {
+    border: 3px solid #081649;
+    font-weight: bold;
+}
+
+.file-btn {
+    position: relative;
+    font-size: 1rem;
+    /* color: #4470c3; */
+    color:#4470c3 ;
+}
+
+input[type="file"] {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+.attach-file {
+    background-color: #081649;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.overflow-Content {
+    white-space: nowrap;
+    /* padding-left: 10%; */
+    width:70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.close-icon:hover {
+    cursor: pointer;
+    color: #DE3163;
+
+}
+
+.mat-next-button {
+    background-color: #DE3163;
+    color: white;
+
+}
+
+.mat-previous-button {
+    border: 3px solid #081649;
+}
